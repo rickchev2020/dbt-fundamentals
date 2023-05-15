@@ -18,7 +18,7 @@ sources:
               - name: last_name
 
         - name: orders
-          desctiption: Raw Orders Data.
+          description: Raw Orders Data.
           columns:
               - name: id
                 description: Primary Key for Customers.
@@ -29,11 +29,3 @@ sources:
                 tests:
                    - unique
                    - not_null
-<<<<<<< HEAD
-               - name: user_id
-               - name: order_date
-               - name: status
-               - name: _etl_loaded_at
-=======
-
->>>>>>> 820ec9dc276ec9ce133a25236ce250057276ff3e
